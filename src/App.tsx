@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import { motion } from 'framer-motion'
 import { DotBackground } from './components/DotBackground'
 import { FloatingDock } from './components/FloatingDock'
+import { ThemeToggle } from './components/ThemeToggle'
 
 const IMG = (path: string, w = 1080) =>
   `https://iassil.dev/_next/image?url=${encodeURIComponent(path)}&w=${w}&q=75`
@@ -106,6 +107,7 @@ export default function App() {
     <>
       <DotBackground />
       <FloatingDock />
+      <ThemeToggle />
       <div className="relative z-0 mx-auto flex w-full max-w-[720px] flex-col px-5 pb-28">
         <main
           id="main"
@@ -148,7 +150,7 @@ export default function App() {
                   </motion.span>
                 ))}
               </h1>
-        </div>
+            </div>
             <motion.p
               className="max-w-[90%] text-center text-lg font-light md:max-w-[60%]"
               variants={{
@@ -195,7 +197,7 @@ export default function App() {
                     aria-hidden
                   >
                     <path d={item.path} />
-          </svg>
+                  </svg>
                 </IconButton>
               </motion.div>
             ))}
@@ -226,7 +228,7 @@ export default function App() {
             ))}
           </motion.section>
 
-          <a href="#aboutme" className="absolute bottom-10 cursor-pointer" aria-label="Scroll to content">
+          <a href="#aboutme" className="absolute bottom-5 cursor-pointer" aria-label="Scroll to content">
             <img
               src="https://iassil.dev/scrollDown.gif"
               alt=""
@@ -383,7 +385,7 @@ export default function App() {
                     <h2 className="text-xl font-bold">{p.title}</h2>
                     <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} fill="currentColor" viewBox="0 0 256 256">
                       <path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z" />
-                </svg>
+                    </svg>
                   </div>
                   <p className="line-clamp-2 text-sm text-gray-600 dark:text-gray-400">{p.desc}</p>
                 </div>
@@ -404,7 +406,7 @@ export default function App() {
               View all Blogs
               <svg xmlns="http://www.w3.org/2000/svg" width={12} height={12} fill="currentColor" viewBox="0 0 256 256">
                 <path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z" />
-                </svg>
+              </svg>
             </motion.span>
           </div>
           <section className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -431,20 +433,18 @@ export default function App() {
                     viewBox="0 0 256 256"
                   >
                     <path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z" />
-                </svg>
-        </div>
+                  </svg>
+                </div>
               </motion.div>
             ))}
-      </section>
+          </section>
         </article>
 
         <footer className="mb-16 mt-8 flex flex-col items-center justify-center gap-5">
           <motion.img
-            src="https://iassil.dev/signature.svg"
+            src="/signature.svg"
             alt="Signature"
-            width={100}
-            height={40}
-            className="opacity-90 invert dark:invert-[0.9]"
+            className="h-12 w-auto opacity-90 dark:invert"
             initial={{ opacity: 0, scale: 0.3 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}

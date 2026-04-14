@@ -1,7 +1,7 @@
 import { useTheme } from '../theme/ThemeProvider'
 
-export const SUN_PATH =
-  'M128,64a64,64,0,1,0,64,64A64.07,64.07,0,0,0,128,64Zm0,112a48,48,0,1,1,48-48A48.05,48.05,0,0,1,128,176ZM128,40a8,8,0,0,0,8-8V16a8,8,0,0,0-16,0V32A8,8,0,0,0,128,40Zm0,176a8,8,0,0,0-8,8v16a8,8,0,0,0,16,0V224A8,8,0,0,0,128,216ZM192,76.69a8,8,0,0,0,11.31-11.31l-11.31-11.31a8,8,0,0,0-11.32,11.32ZM75.31,192l11.31-11.32A8,8,0,1,0,75.31,180.68L64,192A8,8,0,0,0,75.31,203.31ZM75.31,75.31,64,64A8,8,0,0,1,75.31,52.69L86.63,64A8,8,0,0,1,75.31,75.31ZM203.31,192a8,8,0,0,1-11.31,0l-11.32-11.31a8,8,0,0,1,11.32-11.32L203.31,180.68A8,8,0,0,1,203.31,192ZM40,128H24a8,8,0,0,0,0,16H40a8,8,0,0,0,0-16Zm176,0H200a8,8,0,0,0,0,16h16a8,8,0,0,0,0-16Z'
+export const NEW_SUN_PATH =
+  'M 11 0 L 11 3 L 13 3 L 13 0 L 11 0 z M 4.2226562 2.8085938 L 2.8085938 4.2226562 L 4.9296875 6.34375 L 6.34375 4.9296875 L 4.2226562 2.8085938 z M 19.777344 2.8085938 L 17.65625 4.9296875 L 19.070312 6.34375 L 21.191406 4.2226562 L 19.777344 2.8085938 z M 12 5 C 8.1458514 5 5 8.1458514 5 12 C 5 15.854149 8.1458514 19 12 19 C 15.854149 19 19 15.854149 19 12 C 19 8.1458514 15.854149 5 12 5 z M 12 7 C 14.773268 7 17 9.2267316 17 12 C 17 14.773268 14.773268 17 12 17 C 9.2267316 17 7 14.773268 7 12 C 7 9.2267316 9.2267316 7 12 7 z M 0 11 L 0 13 L 3 13 L 3 11 L 0 11 z M 21 11 L 21 13 L 24 13 L 24 11 L 21 11 z M 4.9296875 17.65625 L 2.8085938 19.777344 L 4.2226562 21.191406 L 6.34375 19.070312 L 4.9296875 17.65625 z M 19.070312 17.65625 L 17.65625 19.070312 L 19.777344 21.191406 L 21.191406 19.777344 L 19.070312 17.65625 z M 11 21 L 11 24 L 13 24 L 13 21 L 11 21 z'
 
 export const MOON_PATH =
   'M227.89,148.89A8,8,0,0,1,216,144a72,72,0,0,0-72-72,8,8,0,0,1-4.89-15.89,88,88,0,1,1,88.78,72.78Z'
@@ -14,7 +14,7 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={toggleTheme}
-      className="theme-toggle group fixed right-5 top-5 z-50 flex h-12 w-12 items-center justify-center rounded-full border border-gray-300/70 bg-white/80 shadow-sm backdrop-blur-md dark:border-white/15 dark:bg-black/40 dark:shadow-none md:right-8 md:top-8"
+      className="theme-toggle group absolute right-14 top-5 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-transparent transition-colors md:right-20 md:top-8"
       aria-label={isDark ? 'Passer au thème clair' : 'Passer au thème sombre'}
     >
       <span
@@ -37,17 +37,28 @@ export function ThemeToggle() {
         }}
         aria-hidden
       />
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width={26}
-        height={26}
-        fill="currentColor"
-        viewBox="0 0 256 256"
-        className={`relative z-10 transition-transform duration-700 ease-out group-hover:rotate-[360deg] ${isDark ? 'text-amber-400' : 'text-slate-700'}`}
-        aria-hidden
-      >
-        <path d={isDark ? SUN_PATH : MOON_PATH} />
-      </svg>
+      {isDark ? (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width={26}
+          height={26}
+          fill="currentColor"
+          viewBox="0 0 24 24"
+          className="relative z-10 text-gray-200 animate-[spin_4s_linear_infinite]"
+          aria-hidden
+        >
+          <path d={NEW_SUN_PATH} />
+        </svg>
+      ) : (
+        <img
+          src="/icons8-symbole-de-la-lune-48.png"
+          alt="Moon"
+          width={26}
+          height={26}
+          className="relative z-10 transition-transform duration-700 ease-out group-hover:rotate-[360deg]"
+          aria-hidden
+        />
+      )}
     </button>
   )
 }

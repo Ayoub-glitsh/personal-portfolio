@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
 import { motion } from 'framer-motion'
 import { useTheme } from '../theme/ThemeProvider'
-import { MOON_PATH, SUN_PATH } from './ThemeToggle'
+import { MOON_PATH, NEW_SUN_PATH } from './ThemeToggle'
 
 const SCROLL_THRESHOLD = 96
 
@@ -123,17 +123,28 @@ export function FloatingDock() {
             }}
             aria-hidden
           />
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width={22}
-            height={22}
-            fill="currentColor"
-            viewBox="0 0 256 256"
-            className={`relative z-10 transition-transform duration-700 ease-out group-hover/theme:rotate-[360deg] ${isDark ? 'text-amber-400' : 'text-slate-700'}`}
-            aria-hidden
-          >
-            <path d={isDark ? SUN_PATH : MOON_PATH} />
-          </svg>
+          {isDark ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={22}
+              height={22}
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              className="relative z-10 text-gray-200 animate-[spin_4s_linear_infinite]"
+              aria-hidden
+            >
+              <path d={NEW_SUN_PATH} />
+            </svg>
+          ) : (
+            <img 
+              src="/icons8-symbole-de-la-lune-48.png" 
+              alt="Moon" 
+              width={22} 
+              height={22} 
+              className="relative z-10 transition-transform duration-700 ease-out group-hover/theme:rotate-[360deg]" 
+              aria-hidden 
+            />
+          )}
         </button>
 
         <div className="relative">
