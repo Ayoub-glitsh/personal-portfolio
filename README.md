@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+# Modern Minimalist Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, premium, and highly interactive personal portfolio built with React 19, Vite, and Tailwind CSS 4. This project showcases the work, skills, and blog posts of **Ayoub Aguezar**, a Software Engineering student at 1337.
 
-Currently, two official plugins are available:
+![Ayoub Aguezar Portfolio Placeholder](https://via.placeholder.com/1200x630/0a0a0a/ffffff?text=Professional+Portfolio+Interface)
+*Note: User will provide actual screenshots.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **🚀 Performance-First**: Built with Vite and React 19 for blazing-fast load times.
+- **🎨 Premium Aesthetics**: A minimalist design philosophy focused on typography, whitespace, and subtle micro-animations.
+- **🌓 Dynamic Themes**: Seamless Dark and Light mode integration with persistent preferences.
+- **🎭 Smooth Motion**: Powered by **Framer Motion** for fluid transitions and scroll-triggered animations.
+- **📱 Fully Responsive**: Tailored experience across mobile, tablet, and desktop devices.
+- **🛠️ Interactive Sections**:
+  - **Hero**: Engaging introduction with staggered text animations.
+  - **About Me**: Narrative bio showcasing education and philosophy.
+  - **DevSpace**: Interactive grid showcasing technical proficiencies.
+  - **Projects**: Visual gallery of recent work with descriptive cards.
+  - **InkSpace**: Blog section for sharing technical knowledge.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technology Stack
 
-## Expanding the ESLint configuration
+| Category | technologies |
+| :--- | :--- |
+| **Frontend** | React 19, TypeScript, Tailwind CSS 4, Framer Motion |
+| **Backend/Frameworks** | NestJs, Express.js, Fastify, Spring Boot |
+| **Languages** | C++, Java, TypeScript, GraphQL |
+| **Databases** | MySQL, PostgreSQL |
+| **Tools/DevOps** | Docker, Prometheus, ELK Stack, Figma |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Getting Started
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerequisites
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- [Node.js](https://nodejs.org/) (Latest LTS recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Installation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ayoub-glitsh/personal-portfolio.git
+   cd personal-portfolio
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+## 📸 Screenshots
+
+> [!TIP]
+> This section is reserved for visual walkthroughs of the application.
+
+*(Placeholders for user-added screenshots)*
+- **Desktop View (Dark Mode)**
+- **Mobile Responsive Layout**
+- **Project Showcase**
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Developed with ❤️ by [Ayoub Aguezar](https://github.com/Ayoub-glitsh)
