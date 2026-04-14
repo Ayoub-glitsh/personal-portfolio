@@ -1,5 +1,5 @@
-import type { ReactNode } from 'react'
-import { motion } from 'framer-motion'
+import { ReactNode, useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { DotBackground } from './components/DotBackground'
 import { FloatingDock } from './components/FloatingDock'
 import { ThemeToggle } from './components/ThemeToggle'
@@ -102,6 +102,64 @@ function IconButton({
   )
 }
 
+function AccordionItem({ card, fadeUp }: { card: { title: string, sub: string, desc: string }, fadeUp: any }) {
+  const [isOpen, setIsOpen] = useState(false)
+  const [isHovered, setIsHovered] = useState(false)
+  return (
+    <motion.div
+      className={`relative flex cursor-pointer flex-col overflow-hidden rounded-xl p-6 ring-2 transition-all duration-300 ${
+        isOpen 
+          ? 'bg-red-400/5 ring-red-400/60 shadow-lg dark:bg-red-500/5 dark:ring-red-500/40' 
+          : 'bg-transparent ring-gray-200 dark:ring-white/10 hover:ring-red-400/60 dark:hover:ring-red-500/40'
+      }`}
+      {...fadeUp}
+      whileHover={!isOpen ? { scale: 1.02, transition: { type: 'spring', stiffness: 300, damping: 20 } } : {}}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      onClick={() => setIsOpen(!isOpen)}
+    >
+      <div className="flex items-center justify-between">
+        <div className="flex flex-col gap-1">
+          <h2 className="text-xl font-bold">{card.title}</h2>
+          <p className="text-gray-500 dark:text-gray-400">{card.sub}</p>
+        </div>
+        <motion.div
+          animate={{ rotate: isOpen ? 180 : 0 }}
+          className="text-gray-400"
+        >
+          {isOpen ? (
+            <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} fill="currentColor" viewBox="0 0 256 256">
+              <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80a8,8,0,0,1,11.32-11.32L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z" />
+            </svg>
+          ) : isHovered ? (
+            <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} fill="currentColor" viewBox="0 0 256 256">
+              <path d="M128,40a8,8,0,0,0-8,8V188.69L53.66,122.34a8,8,0,0,0-11.32,11.32l80,80a8,8,0,0,0,11.32,0l80-80a8,8,0,0,0-11.32-11.32L136,188.69V48A8,8,0,0,0,128,40Z" />
+            </svg>
+          ) : (
+            <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z" />
+            </svg>
+          )}
+        </motion.div>
+      </div>
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0, marginTop: 0 }}
+            animate={{ height: 'auto', opacity: 1, marginTop: 16 }}
+            exit={{ height: 0, opacity: 0, marginTop: 0 }}
+            className="overflow-hidden"
+          >
+            <p className="text-gray-600 dark:text-gray-400 leading-relaxed border-t border-gray-100 pt-4 dark:border-white/5">
+              {card.desc}
+            </p>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.div>
+  )
+}
+
 export default function App() {
   return (
     <>
@@ -176,7 +234,7 @@ export default function App() {
               { href: '#aboutme', path: 'M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z' },
               { href: '#projects', path: 'M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z' },
               { href: '#devspace', path: 'M216,72H131.31L104,44.69A15.86,15.86,0,0,0,92.69,40H40A16,16,0,0,0,24,56V200.62A15.4,15.4,0,0,0,39.38,216H216.89A15.13,15.13,0,0,0,232,200.89V88A16,16,0,0,0,216,72ZM40,56H92.69l16,16H40ZM216,200H40V88H216Z' },
-              { href: '#blogs', path: 'M168,128a8,8,0,0,1-8,8H96a8,8,0,0,1,0-16h64A8,8,0,0,1,168,128Zm-8,24H96a8,8,0,0,0,0,16h64a8,8,0,0,0,0-16ZM216,40V200a32,32,0,0,1-32,32H72a32,32,0,0,1-32-32V40a8,8,0,0,1,8-8H72V24a8,8,0,0,1,16,0v8h32V24a8,8,0,0,1,16,0v8h32V24a8,8,0,0,1,16,0v8h24A8,8,0,0,1,216,40Zm-16,8H184v8a8,8,0,0,1-16,0V48H136v8a8,8,0,0,1-16,0V48H88v8a8,8,0,0,1-16,0V48H56V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16Z' },
+              { href: '#blogs', path: 'M168,128a8,8,0,0,1-16,0V200a32,32,0,0,1-32,32H72a32,32,0,0,1-32-32V40a8,8,0,0,1,8-8H72V24a8,8,0,0,1,16,0v8h32V24a8,8,0,0,1,16,0v8h32V24a8,8,0,0,1,16,0v8h24A8,8,0,0,1,216,40Zm-16,8H184v8a8,8,0,0,1-16,0V48H136v8a8,8,0,0,1-16,0V48H88v8a8,8,0,0,1-16,0V48H56V200a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16Z' },
             ].map((item) => (
               <motion.div
                 key={item.href}
@@ -313,19 +371,20 @@ export default function App() {
           <motion.h1 className="select-none text-2xl font-bold md:text-3xl" {...fadeUp}>
             Nuggets of Know-How
           </motion.h1>
-          <section className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
+          <section className="mt-10 flex flex-col gap-4">
             {[
-              { title: 'Software Enginering', sub: '1337 Coding School' },
-              { title: 'UX/UI Design', sub: 'Self Learned' },
+              { 
+                title: 'Software Enginering', 
+                sub: '1337 Coding School',
+                desc: 'Deep dive into Peer-to-Peer learning, specializing in C/C++, Algorithms, System Programming, and Web Development.'
+              },
+              { 
+                title: 'UX/UI Design', 
+                sub: 'Self Learned',
+                desc: 'Passionate about creating minimalist and intuitive digital experiences with a focus on accessibility and design systems.'
+              },
             ].map((card) => (
-              <motion.div
-                key={card.title}
-                className="flex cursor-pointer flex-col gap-2 rounded-sm bg-white p-6 ring-2 ring-gray-200 transition hover:ring-indigo-400/50 dark:bg-[#191919] dark:ring-white/10 dark:hover:ring-indigo-500/40"
-                {...fadeUp}
-              >
-                <h2 className="text-xl font-bold">{card.title}</h2>
-                <p className="text-gray-500 dark:text-gray-400">{card.sub}</p>
-              </motion.div>
+              <AccordionItem key={card.title} card={card} fadeUp={fadeUp} />
             ))}
           </section>
         </article>
@@ -340,6 +399,7 @@ export default function App() {
                 key={t.label}
                 className="flex h-12 cursor-pointer items-center gap-3 rounded-sm bg-gray-50 px-2 ring-2 ring-red-900/12 transition hover:bg-gray-100 hover:shadow-md hover:ring-indigo-500/50 dark:bg-[#191919] dark:text-gray-300 dark:ring-white/10 dark:backdrop-blur-lg dark:hover:bg-gray-800"
                 {...fadeUp}
+                whileHover={{ rotate: 1.5, scale: 1.02, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
               >
                 <i className={`ci ${t.icon} ci-2xl`} aria-hidden />
                 <p className="select-none text-sm">{t.label}</p>
@@ -368,9 +428,10 @@ export default function App() {
             {projects.map((p) => (
               <motion.div
                 key={p.title}
-                className="flex cursor-pointer select-none flex-col gap-2 overflow-hidden rounded-xl bg-gray-50 p-4 ring-2 ring-gray-200 transition hover:ring-[#746e9c7a] dark:bg-[#161616] dark:ring-white/10"
+                className="flex cursor-pointer select-none flex-col gap-2 overflow-hidden rounded-xl bg-gray-50 p-4 ring-2 ring-gray-200 hover:ring-[#746e9c7a] dark:bg-[#161616] dark:ring-white/10"
                 {...fadeUp}
                 transition={{ type: 'spring', stiffness: 80, damping: 18 }}
+                whileHover={{ rotate: 1.5, scale: 1.02, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
               >
                 <div className="hidden overflow-hidden rounded-lg border-2 border-gray-200 dark:border-white/10 sm:flex sm:h-48 sm:items-center sm:justify-center">
                   <img
@@ -413,8 +474,9 @@ export default function App() {
             {blogs.map((b) => (
               <motion.div
                 key={b.title}
-                className="group max-h-70 cursor-pointer select-none overflow-hidden rounded-xl bg-gray-50 p-2 ring-2 ring-gray-200 transition hover:shadow-md hover:ring-[#9c7a6e43] dark:bg-[#161616] dark:ring-white/10"
+                className="group max-h-70 cursor-pointer select-none overflow-hidden rounded-xl bg-gray-50 p-2 ring-2 ring-gray-200 hover:shadow-md hover:ring-[#9c7a6e43] dark:bg-[#161616] dark:ring-white/10"
                 {...fadeUp}
+                whileHover={{ rotate: 1.5, scale: 1.02, transition: { type: 'spring', stiffness: 300, damping: 20 } }}
               >
                 <div className="hidden h-44 overflow-hidden rounded-lg border-2 border-gray-200 dark:border-white/10 sm:flex sm:items-center sm:justify-center">
                   <img src={b.image} alt="" className="h-full w-full object-cover" loading="lazy" />
