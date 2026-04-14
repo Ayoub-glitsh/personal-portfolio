@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
 import { motion } from 'framer-motion'
 import { useTheme } from '../theme/ThemeProvider'
-import { MOON_PATH, NEW_SUN_PATH } from './ThemeToggle'
+import { NEW_SUN_PATH } from './ThemeToggle'
 
 const SCROLL_THRESHOLD = 96
 
