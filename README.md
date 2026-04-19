@@ -30,7 +30,7 @@ Make sure you have Node.js (version 18 or higher) installed on your machine.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ismailassil/portfolio.git
+   git clone https://github.com/Ayoub-glitsh/portfolio.git
    cd portfolio
    ```
 

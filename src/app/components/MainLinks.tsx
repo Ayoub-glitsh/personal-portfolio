@@ -25,24 +25,24 @@ const MainLinks = () => {
 				className="cursor-pointer hover:scale-110 duration-600 transition-all hover:fill-blue-700"
 				onClick={() =>
 					window.open(
-						'mailto:ismailassil@duck.com?subject=Hello&body=How%20are%20you%3F',
+						'#',
 					)
 				}
 			/>
 			<GithubLogoIcon
 				size={28}
 				className="cursor-pointer hover:scale-110 duration-600 transition-all hover:fill-blue-700"
-				onClick={() => window.open('https://github.com/ismailassil')}
+				onClick={() => window.open('https://github.com/Ayoub-glitsh')}
 			/>
 			<LinkedinLogoIcon
 				size={28}
 				className="cursor-pointer hover:scale-110 duration-600 transition-all hover:fill-blue-700"
-				onClick={() => window.open('https://linkedin.com/in/ismail-assil')}
+				onClick={() => window.open('#')}
 			/>
 			<DiscordLogoIcon
 				size={28}
 				className="cursor-pointer hover:scale-110 duration-600 transition-all hover:fill-blue-700"
-				onClick={() => window.open('https://discord.com/users/musablade')}
+				onClick={() => window.open('#')}
 			/>
 		</motion.section>
 	);

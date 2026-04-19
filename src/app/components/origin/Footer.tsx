@@ -36,7 +36,7 @@ function Footer() {
 				}}
 				viewport={{ once: true }}
 			>
-				{new Date().getFullYear()} &#169; Ismail Assil
+				{new Date().getFullYear()} &#169; Ayoub Aguezar
 			</motion.p>
 		</footer>
 	);

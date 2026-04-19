@@ -21,7 +21,7 @@ function Links({ links, linksRef, setLinks }: LinksProps) {
 
 	function handleEmail() {
 		window.open(
-			'mailto:ismailassil@duck.com?subject=Hello&body=How%20are%20you%3F',
+			'#',
 		);
 	}
 
@@ -54,7 +54,7 @@ function Links({ links, linksRef, setLinks }: LinksProps) {
 					</button>
 					<button
 						className="flex gap-2 items-center text-sm justify-between min-w-37 group"
-						onClick={() => redirect('https://github.com/ismailassil/')}
+						onClick={() => redirect('https://github.com/Ayoub-glitsh')}
 					>
 						<div className="flex gap-2 items-center">
 							<GithubLogoIcon size={24} color="white" /> Github{' '}
@@ -67,7 +67,7 @@ function Links({ links, linksRef, setLinks }: LinksProps) {
 					<button
 						className="flex gap-2 items-center text-sm justify-between group min-w-37"
 						onClick={() =>
-							redirect('https://www.linkedin.com/in/ismail-assil/')
+							redirect('#')
 						}
 					>
 						<div className="flex gap-2 items-center">
@@ -81,7 +81,7 @@ function Links({ links, linksRef, setLinks }: LinksProps) {
 					<button
 						className="flex gap-2 items-center text-sm justify-between group min-w-37"
 						onClick={() =>
-							redirect('https://discord.com/users/musablade')
+							redirect('#')
 						}
 					>
 						<div className="flex gap-2 items-center">

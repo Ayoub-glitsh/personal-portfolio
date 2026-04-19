@@ -16,7 +16,7 @@ function LatestProjects() {
 					<Title text="Latest Projects" />
 					<SubTitle
 						text="View all Projects"
-						link="https://github.com/ismailassil?tab=repositories"
+						link="https://github.com/Ayoub-glitsh?tab=repositories"
 					/>
 				</div>
 				<motion.section

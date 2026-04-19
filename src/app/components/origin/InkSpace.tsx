@@ -13,7 +13,7 @@ function InkSpace() {
 					<Title text="InkSpace" />
 					<SubTitle
 						text="View all Blogs"
-						link="https://iassil.notion.site"
+						link="https://medium.com/me/stories?tab=posts-published"
 					/>
 				</div>
 				<section className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-5">

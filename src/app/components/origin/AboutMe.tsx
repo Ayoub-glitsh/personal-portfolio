@@ -22,10 +22,9 @@ function AboutMe() {
 					transition={{ duration: 0.6, ease: 'easeOut' }}
 					viewport={{ amount: 1, once: true }}
 				>
-					Hi, my name is <strong>Ismail Assil</strong>, an aspiring{' '}
+					Hi, my name is <strong>Ayoub Aguezar</strong>, an{' '}
 					<strong>
-						Software Engineering Student at{' '}
-						<span className={spaceGrotesk.className}>1337</span>
+						Software & Data Engineering Student
 					</strong>{' '}
 					<LaptopIcon
 						size={24}

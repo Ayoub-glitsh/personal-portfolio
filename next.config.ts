@@ -3,7 +3,16 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
-    remotePatterns: [new URL("https://miro.medium.com/**")],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "miro.medium.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media2.dev.to",
+      },
+    ],
   },
   compiler: {
     removeConsole: true,

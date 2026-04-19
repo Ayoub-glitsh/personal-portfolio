@@ -11,7 +11,7 @@ const MainDescription = () => {
 			}}
 			className="text-lg font-light w-full max-w-[90%] md:max-w-[60%] text-center"
 		>
-			Software Engineering Student passionate about creating real-world
+			Software & Data Engineering Student passionate about creating data-driven real-world
 			solutions
 		</motion.p>
 	);

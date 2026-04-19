@@ -2,7 +2,7 @@ import sora from '@/app/fonts/sora';
 import { motion } from 'framer-motion';
 
 const Name = () => {
-	const text = 'Ismail Assil';
+	const text = 'Ayoub Aguezar';
 	const characters = text.split('');
 
 	return (

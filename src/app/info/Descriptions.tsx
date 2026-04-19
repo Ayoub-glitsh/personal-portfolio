@@ -1,16 +1,14 @@
-const keepSyncDescription = `KeepSync is a secure cloud storage platform that lets users upload,
-	sync, and access files across devices seamlessly, keeping data safe, organized, and always up to date. `;
+const restaurantDescription = `Experience the authentic taste of Ouarzazate through "Snack العائلة". A modern and responsive showcase platform built meticulously with Vanilla JavaScript and CSS, delivering a warm Moroccan-inspired interface, smooth scroll animations, and interactive elements like a digital menu, lightbox gallery, and customer review carousels.`;
 
-const keepSyncImg = `/projects/keepsync.png`;
+const restaurantImg = `/projects/restaurant.png`;
 
-const docuAiDescription = `AI-powered document processing and analysis tool. Leverages artificial
-	intelligence to extract, analyze, and interact with document content.`;
+const weatherMapDescription = `A modern and interactive web application providing real-time weather forecasts for major cities in Morocco. Built with Next.js 14 and TypeScript, it features an interactive Leaflet map, dynamic day/night switching, and smooth scroll animations.`;
 
-const docuAiImg = `/projects/DocuAI.jpg`;
+const weatherMapImg = `/projects/weather-map.png`;
 
-const rallyuDescription = ` A modern, web-based version of the classic Pong game with real-time multiplayer, responsive controls, and integration with user profiles and match history.`;
+const devopsDescription = `Automated CI/CD pipeline for dual-platform repository management. Synchronizes GitHub and GitLab workflows using YAML-based automation to ensure repository consistency and secure multi-platform distribution.`;
 
-const rallyuImg = `/projects/rallyu.jpg`;
+const devopsImg = `https://media2.dev.to/dynamic/image/width=1280,height=720,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flw27fhurcb0gam6i00vy.jpg`;
 
 const ircDescription = `An Internet Relay Chat Server, implementing
 user authentication, channels, and message
@@ -30,23 +28,22 @@ under strict guidelines to simulate real-world deployment scenarios.`;
 
 const inceptionImg = `/projects/docker.jpeg`;
 
-const qradeDescription = `A web app that scans uploaded PDFs and extracts QR codes from every page automatically.`;
-
-const qradeImg = `/projects/qrade.svg`;
+const metadataApiDescription = `Website Metadata API REST is a simple and efficient RESTful API built with Node.js and Express. It allows developers to extract useful metadata from any public website using a single HTTP request. This API is ideal for SEO tools, link previews, dashboards, and automation workflows.`;
+const metadataApiImg = `/projects/metadata_api.png`;
 
 export {
-	keepSyncDescription,
-	keepSyncImg,
-	docuAiDescription,
-	docuAiImg,
-	rallyuDescription,
-	rallyuImg,
+	restaurantDescription,
+	restaurantImg,
+	weatherMapDescription,
+	weatherMapImg,
+	devopsDescription,
+	devopsImg,
 	ircDescription,
 	ircImg,
 	minishellDescription,
 	minishellImg,
 	inceptionDescription,
 	inceptionImg,
-	qradeDescription,
-	qradeImg,
+	metadataApiDescription,
+	metadataApiImg,
 };

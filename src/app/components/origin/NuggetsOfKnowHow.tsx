@@ -11,7 +11,7 @@ function NuggetsOfKnowHow() {
 				className="pt-20 relative dark:text-gray-200"
 				id="skills"
 			>
-				<Title text="Nuggets of Know-How" />
+				<Title text="Education" />
 				<AnimatePresence>
 					<section
 						className={`mt-10 text-lg text-gray-800 leading-loose flex flex-col gap-4`}
