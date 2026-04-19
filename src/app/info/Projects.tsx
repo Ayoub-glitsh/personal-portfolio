@@ -11,7 +11,6 @@ import {
 	// ircImg,
 	// minishellDescription,
 	// minishellImg,
-	docuAiImg,
 	devopsDescription,
 	devopsImg,
 } from "../info/Descriptions";
