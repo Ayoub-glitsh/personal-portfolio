@@ -369,10 +369,10 @@ Software Engineering & Data Engineering Student
 
 ## <a id="acknowledgement"></a>🙏 Acknowledgement
 
-This project is inspired by **[Ismail](https://github.com/ismail)**.  
+This project is inspired by **[Ismail ASSIL](https://github.com/ismailassil)**.  
 I would like to sincerely thank him for the project he built and shared for free as open source.
 
-Huge shoutout to him — don't forget to check out his GitHub and support his work 🚀
+Huge shoutout to him don't forget to check out his GitHub and support his work 
 
 ---
 
