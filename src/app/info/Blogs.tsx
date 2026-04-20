@@ -15,8 +15,8 @@ export const blogPosts = [
 		link: 'https://medium.com/@ayoub.aguezar.dev/installer-microsoft-office-facilement-avec-powershell-la-m%C3%A9thode-simple-et-efficace-3baa6af49c3c',
 	},
 	{
-		title: 'Computer Networking',
-		img: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/0*ZX1fzJq6cH1neKUT',
-		link: 'https://medium.com/@ismailassil/networking-726246dd2177',
+		title: 'MongoDB Tips',
+		img: '/projects/mongodb-tips.png',
+		link: 'https://medium.com/@ayoub.aguezar.dev/comment-jautomatise-la-suppression-de-toutes-mes-bases-utilisateur-mongodb-en-toute-s%C3%A9curit%C3%A9-f1149ccd6676',
 	},
 ];
