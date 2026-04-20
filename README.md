@@ -54,15 +54,80 @@ It features smooth scroll animations, light/dark mode support, interactive accor
 
 ### Frontend 
 
-| Technology | Version | Role |
-|-----------|---------|------|
-| [Next.js](https://nextjs.org/) | 15.5.9 | React framework with App Router |
-| [React](https://react.dev/) | 19 | UI library |
-| [TypeScript](https://www.typescriptlang.org/) | 5 | Type-safe JavaScript |
-| [Tailwind CSS](https://tailwindcss.com/) | 4 | Utility-first CSS framework |
-| [Framer Motion](https://www.framer.com/motion/) | 12 | Animation library |
-| [Lenis](https://lenis.darkroom.engineering/) | 1.3 | Smooth scroll library |
-| [Phosphor Icons](https://phosphoricons.com/) | 2 | Icon library |
+
+
+<table align="center">
+  <tr>
+    <th>Technology</th>
+    <th>Version</th>
+    <th>Role</th>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="20"/>
+      <a href="https://nextjs.org/">Next.js</a>
+    </td>
+    <td>15.5.9</td>
+    <td>React framework with App Router</td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="20"/>
+      <a href="https://react.dev/">React</a>
+    </td>
+    <td>19</td>
+    <td>UI library</td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="20"/>
+      <a href="https://www.typescriptlang.org/">TypeScript</a>
+    </td>
+    <td>5</td>
+    <td>Type-safe JavaScript</td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="20"/>
+      <a href="https://tailwindcss.com/">Tailwind CSS</a>
+    </td>
+    <td>4</td>
+    <td>Utility-first CSS framework</td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/framer/framer-original.svg" width="20"/>
+      <a href="https://www.framer.com/motion/">Framer Motion</a>
+    </td>
+    <td>12</td>
+    <td>Animation library</td>
+  </tr>
+
+  <tr>
+    <td>
+      <!-- Pas d’icône Devicon officielle -->
+      <img src="https://raw.githubusercontent.com/darkroomengineering/lenis/main/.github/assets/logo.svg" width="20"/>
+      <a href="https://lenis.darkroom.engineering/">Lenis</a>
+    </td>
+    <td>1.3</td>
+    <td>Smooth scroll library</td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="https://unpkg.com/@phosphor-icons/core/assets/phosphor-logo.svg" width="20"/>
+      <a href="https://phosphoricons.com/">Phosphor Icons</a>
+    </td>
+    <td>2</td>
+    <td>Icon library</td>
+  </tr>
+
+</table>
 
 ### Tooling & Deployment
 
