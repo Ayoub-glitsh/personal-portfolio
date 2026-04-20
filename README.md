@@ -101,7 +101,7 @@ It features smooth scroll animations, light/dark mode support, interactive accor
 
   <tr>
     <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/framer/framer-original.svg" width="20"/>
+      <img src="https://res.cloudinary.com/dqgsl5uu4/image/upload/q_auto/f_auto/v1776712286/framer-motion_qn9vqc.svg" width="20"/>
       <a href="https://www.framer.com/motion/">Framer Motion</a>
     </td>
     <td>12</td>
