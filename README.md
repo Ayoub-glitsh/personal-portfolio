@@ -246,7 +246,7 @@ The portfolio is organized into the following sections:
       <em>Articles techniques publiés sur ma plateforme Medium</em>
     </td>
     <td align="center" width="50%">
-      <img src="" alt="Nuggets of Know-How" width="100%" />
+      <img src="https://res.cloudinary.com/dqgsl5uu4/image/upload/q_auto/f_auto/v1776711396/im_06_ny7ojd.png" alt="Nuggets of Know-How" width="100%" />
       <br />
       <strong>Pépites de Savoir</strong>
       <br />
