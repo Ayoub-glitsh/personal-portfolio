@@ -5,7 +5,7 @@ export const blogPosts = [
 		link: 'https://medium.com/@ayoub.aguezar.dev/introducing-gemini-cli-the-ai-powered-terminal-assistant-0e6656ace652',
 	},
 	{
-		title: 'MongoDB Backup and Recovery',
+		title: 'MongoDB Administration',
 		img: '/projects/mongodb-backup.png',
 		link: 'https://medium.com/@ayoub.aguezar.dev/sauvegarde-et-restauration-dune-base-mongodb-guide-pratique-78ed01df6b7d',
 	},
