@@ -1,4 +1,4 @@
-# 🚀 Personal Portfolio — Ayoub Aguezzar
+# 🚀 Personal Portfolio — Ayoub Aguezar
 
 > A modern, responsive personal portfolio built with **Next.js 15**, showcasing projects, technical skills, blog articles, and professional background.
 

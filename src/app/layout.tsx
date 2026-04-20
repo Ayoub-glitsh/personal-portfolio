@@ -20,7 +20,7 @@ export default function RootLayout({
 	const [showNav, setShowNav] = useState(false);
 	
 	useEffect(() => {
-		document.title = "Portfolio | Ayoub Aguezzar";
+		document.title = "Portfolio | Ayoub Aguezar";
 	});
 
 	return (
