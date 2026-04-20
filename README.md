@@ -230,7 +230,7 @@ The portfolio is organized into the following sections:
       <em>Grille interactive des technologies et outils maîtrisés</em>
     </td>
     <td align="center" width="50%">
-      <img src="" alt="Projects Section" width="100%" />
+      <img src="https://res.cloudinary.com/dqgsl5uu4/image/upload/q_auto/f_auto/v1776710991/im_04_g9wqnh.png" alt="Projects Section" width="100%" />
       <br />
       <strong>Derniers Projets</strong>
       <br />
