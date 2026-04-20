@@ -371,4 +371,4 @@ This project is licensed under the **MIT License** feel free to use and adapt it
 
 ---
 
-<p align="center">Built with ❤️ by <strong>Ayoub Aguezzar</strong></p>
+<p align="center">Built by <strong>Ayoub Aguezzar</strong></p>
