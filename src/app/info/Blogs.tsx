@@ -10,9 +10,9 @@ export const blogPosts = [
 		link: 'https://medium.com/@ayoub.aguezar.dev/sauvegarde-et-restauration-dune-base-mongodb-guide-pratique-78ed01df6b7d',
 	},
 	{
-		title: 'RayCasting in C',
-		img: 'https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bc5ouuXDw6ZkOvbGKSLvqw.png',
-		link: 'https://medium.com/@ismailassil/ray-casting-c-8bfae2c2fc13',
+		title: 'Microsoft Office',
+		img: '/projects/microsoft-office.png',
+		link: 'https://medium.com/@ayoub.aguezar.dev/installer-microsoft-office-facilement-avec-powershell-la-m%C3%A9thode-simple-et-efficace-3baa6af49c3c',
 	},
 	{
 		title: 'Computer Networking',
