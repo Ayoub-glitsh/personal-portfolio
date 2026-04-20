@@ -223,7 +223,7 @@ The portfolio is organized into the following sections:
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="" alt="Tech Stack Section" width="100%" />
+      <img src="https://res.cloudinary.com/dqgsl5uu4/image/upload/q_auto/f_auto/v1776710843/im_03_inzxas.png" alt="Tech Stack Section" width="100%" />
       <br />
       <strong>Stack Technique</strong>
       <br />
