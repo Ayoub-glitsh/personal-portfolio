@@ -1,286 +1,250 @@
-# <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMiAyMHYtMmgyMHYzIi8+PHBhdGggZD0iTTEwIDJoMnY2aC0yeiIvPjwvc3ZnPg==" width="24" height="24" alt="Dev"/>&nbsp;Portfolio<span class="typed-text"></span><span class="cursor">|</span>
+# 🚀 Personal Portfolio — Ayoub Aguezzar
 
-A modern, responsive personal portfolio website built with **Next.js 15**, showcasing projects, skills, and professional experience as a full-stack developer.
+> A modern, responsive personal portfolio built with **Next.js 15**, showcasing projects, technical skills, blog articles, and professional background.
 
----
-
-## <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjwvc3ZnPg==" width="20" height="20" alt="Features"/> Features
-
-- **Modern UI** — Clean, minimalist design with smooth animations powered by [Framer Motion](https://www.framer.com/motion/)
-- **Responsive** — Fully optimized for desktop, tablet, and mobile devices
-- **Fast Performance** — Built on Next.js 15 with Turbopack for lightning-fast builds
-- **SEO Optimized** — Meta tags, Open Graph, and structured data for search visibility
-- **Smooth Scrolling** — Custom scroll behavior with Lenis for fluid navigation
-- **Theme Support** — Light/dark mode toggle with persistent preferences
-- **Interactive Elements** — Engaging micro-interactions and animations
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://vercel.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
 
-## <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNNiA5bDYtM3YzLjVsLTIgMWwtMiAzaC0zeiIvPjxwYXRoIGQ9Ik0xMCAxNXYtNHY0Ii8+PC9zdmc+" width="20" height="20" alt="Tech"/> Tech Stack
+## 📋 Table of Contents
 
-### Core Technologies
-
-| Category | Technologies |
-|----------|-------------|
-| **Framework** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTEwLjUgNi41YzIuNy0uMyA1LjYtMS4zIDUuNi0zLjFjMC0yLjctMi4zLTUtNy41LTUtMi43IDAtNS41IDEuNy01LjUgMy43YzAgMS45IDEuMiAzLjQgMy4xIDMuNiIvPjwvc3ZnPg==" width="24" height="24" alt="Next.js"/> [Next.js 15](https://nextjs.org/) • <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNCIvPjwvc3ZnPg==" width="24" height="24" alt="React"/> [React 19](https://react.dev/) |
-| **Language** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTEyLjUgMTFjLS42IDAtMSAuNC0xIDEuMXYzYzAgLjYuNCAxIDEgMWgyLjVjLjYgMCAxLS40IDEtMXYtM1oiLz48L3N2Zz4=" width="24" height="24" alt="TypeScript"/> [TypeScript](https://www.typescriptlang.org/) |
-| **Styling** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNCIvPjwvc3ZnPg==" width="24" height="24" alt="Tailwind"/> [Tailwind CSS](https://tailwindcss.com/) • [Framer Motion](https://www.framer.com/motion/) |
-
-### Backend & APIs
-
-| Category | Technologies |
-|----------|-------------|
-| **Runtime** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48L3N2Zz4=" width="24" height="24" alt="Node.js"/> [Node.js](https://nodejs.org/) |
-| **Frameworks** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNCIvPjwvc3ZnPg==" width="24" height="24" alt="Express"/> [Express](https://expressjs.com/) • [NestJS](https://nestjs.com/) • [Fastify](https://fastify.dev/) • [Spring Boot](https://spring.io/projects/spring-boot/) |
-| **GraphQL** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHBhdGggZD0iTTEyLjUgMTFjLS42IDAtMSAuNC0xIDEuMXYzYzAgLjYuNCAxIDEgMWgyLjVjLjYgMCAxLS40IDEtMXYtM1oiLz48L3N2Zz4=" width="24" height="24" alt="GraphQL"/> [GraphQL](https://graphql.org/) |
-
-### Databases & DevOps
-
-| Category | Technologies |
-|----------|-------------|
-| **Databases** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNCIvPjwvc3ZnPg==" width="24" height="24" alt="MySQL"/> [MySQL](https://www.mysql.com/) • <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNCIvPjwvc3ZnPg==" width="24" height="24" alt="PostgreSQL"/> [PostgreSQL](https://www.postgresql.org/) • <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNCIvPjwvc3ZnPg==" width="24" height="24" alt="MongoDB"/> [MongoDB](https://www.mongodb.com/) |
-| **DevOps** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNCIvPjwvc3ZnPg==" width="24" height="24" alt="Docker"/> [Docker](https://www.docker.com/) • [Prometheus](https://prometheus.io/) • [ELK Stack](https://www.elastic.co/elastic-stack) |
-
-### Design & Tools
-
-| Category | Technologies |
-|----------|-------------|
-| **Design** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNCIvPjwvc3ZnPg==" width="24" height="24" alt="Figma"/> [Figma](https://www.figma.com/) |
-| **Analytics** | <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+PHJlY3QgeD0iMiIgeT0iMiIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIiByeD0iNCIvPjwvc3ZnPg==" width="24" height="24" alt="Vercel"/> [Vercel Analytics](https://vercel.com/analytics) • [Vercel Speed Insights](https://vercel.com/speed-insights) |
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Sections](#sections)
+- [Projects Showcased](#projects-showcased)
+- [Blog Articles](#blog-articles)
+- [Deployment](#deployment)
+- [Author](#author)
 
 ---
 
-## <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48bGluZSB5MT0iMTIiIHgyPSI0IiB5Mj0iMTIiIHgyPSIyMCIvPjxsaW5lIHkxPSI0IiB4Mj0iMTIiIHkyPSI0IiB4Mj0iMTIiLz48L3N2Zz4=" width="20" height="20" alt="Getting Started"/> Getting Started
+## 🌟 Overview
+
+This is my personal developer portfolio — a clean, minimalist, and highly interactive website that presents my work, skills, and passions as a **Software Engineering & Data Engineering** student.
+
+It features smooth scroll animations, light/dark mode support, interactive accordion sections, hover micro-animations, and a fully responsive layout optimized for all screen sizes.
+
+---
+
+## ✨ Features
+
+| Feature | Details |
+|---------|---------|
+| 🎨 **Modern UI/UX** | Clean design with smooth animations via Framer Motion |
+| 🌙 **Dark / Light Mode** | Theme toggle with persistent preferences |
+| 📱 **Fully Responsive** | Optimized for desktop, tablet, and mobile |
+| ⚡ **Fast Performance** | Built with Next.js 15 + Turbopack |
+| 🔍 **SEO Optimized** | Meta tags, Open Graph, and structured data |
+| 🖱️ **Smooth Scrolling** | Custom scroll via Lenis |
+| 🧩 **Micro-Interactions** | Hover effects, card rotations, accordion toggles |
+| 📊 **Analytics** | Vercel Analytics + Speed Insights integrated |
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+| Technology | Version | Role |
+|-----------|---------|------|
+| [Next.js](https://nextjs.org/) | 15.5.9 | React framework with App Router |
+| [React](https://react.dev/) | 19 | UI library |
+| [TypeScript](https://www.typescriptlang.org/) | 5 | Type-safe JavaScript |
+| [Tailwind CSS](https://tailwindcss.com/) | 4 | Utility-first CSS framework |
+| [Framer Motion](https://www.framer.com/motion/) | 12 | Animation library |
+| [Lenis](https://lenis.darkroom.engineering/) | 1.3 | Smooth scroll library |
+| [Phosphor Icons](https://phosphoricons.com/) | 2 | Icon library |
+
+### Tooling & Deployment
+
+| Tool | Purpose |
+|------|---------|
+| [Vercel](https://vercel.com/) | Hosting & CI/CD |
+| [Vercel Analytics](https://vercel.com/analytics) | Traffic insights |
+| [ESLint](https://eslint.org/) | Code linting |
+| [Prettier](https://prettier.io/) | Code formatting |
+| [Turbopack](https://turbo.build/pack) | Fast bundler for development |
+
+---
+
+## 📁 Project Structure
+
+```
+personal-portfolio/
+├── public/
+│   ├── projects/              # Project & blog preview images
+│   │   ├── restaurant.png
+│   │   ├── weather-map.png
+│   │   ├── devops.png (URL)
+│   │   ├── metadata_api.png
+│   │   ├── gemini-cli.png
+│   │   ├── mongodb-backup.png
+│   │   ├── microsoft-office.png
+│   │   └── mongodb-tips.png
+│   └── signature.svg
+│
+├── src/
+│   └── app/
+│       ├── components/
+│       │   ├── Items/
+│       │   │   ├── Cards/
+│       │   │   │   ├── ProjectCard.tsx    # Project card component
+│       │   │   │   └── BlogCard.tsx       # Blog card component
+│       │   │   ├── Nav/
+│       │   │   │   └── Links.tsx          # Social links
+│       │   │   ├── Name.tsx
+│       │   │   ├── Title.tsx
+│       │   │   └── SubTitle.tsx
+│       │   └── origin/
+│       │       ├── AboutMe.tsx            # About Me section
+│       │       ├── LatestProjects.tsx     # Projects section
+│       │       ├── InkSpace.tsx           # Blog section
+│       │       ├── MyDevSpace.tsx         # Skills section
+│       │       ├── NuggetsOfKnowHow.tsx   # Accordion tips section
+│       │       ├── Main.tsx               # Hero section
+│       │       └── Footer.tsx
+│       │
+│       ├── info/
+│       │   ├── Blogs.tsx                  # Blog posts data
+│       │   ├── Buttons.tsx                # Nav buttons data
+│       │   ├── Descriptions.tsx           # Project descriptions & images
+│       │   ├── Nuggets.tsx                # Nuggets of know-how data
+│       │   ├── Projects.tsx               # Projects list data
+│       │   └── Tech.tsx                   # Tech stack data
+│       │
+│       ├── globals.css                    # Global styles
+│       ├── layout.tsx                     # Root layout + metadata
+│       └── page.tsx                       # Home page
+│
+├── next.config.ts                         # Next.js configuration
+├── tailwind.config.ts                     # Tailwind configuration
+├── tsconfig.json
+├── package.json
+└── vercel.json
+```
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
 - **Node.js** 18.x or higher
-- **npm** or **yarn** package manager
+- **npm** or **yarn**
 
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/portfolio.git
-cd portfolio
+# 1. Clone the repository
+git clone https://github.com/Ayoub-glitsh/personal-portfolio.git
+cd personal-portfolio
 
-# Install dependencies
+# 2. Install dependencies
 npm install
-# or with yarn
-yarn install
 
-# Start development server
+# 3. Start the development server
 npm run dev
-# or with yarn
-yarn dev
 ```
 
 ### Open in Browser
 
-Navigate to [http://localhost:3000](http://localhost:3000)
+Navigate to [http://localhost:3000](http://localhost:3000) 🎉
 
 ---
 
-## <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxvbiBwb2ludHM9IjEyIDIgMiAxMiIgLz48L3N2Zz4=" width="20" height="20" alt="Build"/> Available Scripts
+## 📜 Available Scripts
 
 | Command | Description |
 |---------|-------------|
 | `npm run dev` | Start development server with Turbopack |
-| `npm run build` | Build for production |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
+| `npm run build` | Build the app for production |
+| `npm run start` | Start the production server |
+| `npm run lint` | Run ESLint to check code quality |
 
 ---
 
-## <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMiAxMHYtOGg4djgiLz48L3N2Zz4=" width="20" height="20" alt="Gallery"/> Gallery
+## 📄 Sections
 
-Explore the different sections of my portfolio through these screenshots.
+The portfolio is organized into the following sections:
 
-<div class="gallery-grid">
-
-<!-- Hero Section -->
-<div class="gallery-card">
-  <img src="./public/screenshots/hero-section.png" alt="Hero Section" />
-  <div class="gallery-description">
-    <h3>Hero Section</h3>
-    <p>The main landing area featuring a dynamic typed text animation, interactive background with floating particles, and a professional introduction with call-to-action buttons.</p>
-  </div>
-</div>
-
-<!-- About Section -->
-<div class="gallery-card">
-  <img src="./public/screenshots/about-section.png" alt="About Section" />
-  <div class="gallery-description">
-    <h3>About Me</h3>
-    <p>A personal section showcasing my background, skills, and professional journey as a full-stack developer with detailed descriptions and visual elements.</p>
-  </div>
-</div>
-
-<!-- Skills/Tech Stack -->
-<div class="gallery-card">
-  <img src="./public/screenshots/skills-section.png" alt="Skills Section" />
-  <div class="gallery-description">
-    <h3>Tech Stack</h3>
-    <p>Interactive grid displaying all technologies I work with including C++, Java, TypeScript, React, Next.js, NestJS, Spring Boot, databases, and DevOps tools.</p>
-  </div>
-</div>
-
-<!-- Projects Section -->
-<div class="gallery-card">
-  <img src="./public/screenshots/projects-section.png" alt="Projects Section" />
-  <div class="gallery-description">
-    <h3>Projects Showcase</h3>
-    <p>A visually appealing project gallery featuring cards with project thumbnails, titles, descriptions, tech stack badges, and links to live demos and source code.</p>
-  </div>
-</div>
-
-<!-- Blogs/Nuggets Section -->
-<div class="gallery-card">
-  <img src="./public/screenshots/blogs-section.png" alt="Blogs Section" />
-  <div class="gallery-description">
-    <h3>Knowledge Nuggets</h3>
-    <p>A blog section featuring technical articles and tutorials with card-based layout, author info, reading time estimates, and category tags.</p>
-  </div>
-</div>
-
-<!-- Contact/Footer -->
-<div class="gallery-card">
-  <img src="./public/screenshots/contact-section.png" alt="Contact Section" />
-  <div class="gallery-description">
-    <h3>Contact & Footer</h3>
-    <p>Footer area with social media links, navigation links, and contact information featuring smooth hover animations and a clean professional design.</p>
-  </div>
-</div>
-
-</div>
-
-<!-- Gallery Styles -->
-<style>
-{`
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 24px;
-  margin: 24px 0;
-}
-
-.gallery-card {
-  background: var(--card-bg, #1a1a1a);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.gallery-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
-}
-
-.gallery-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-}
-
-.gallery-description {
-  padding: 20px;
-}
-
-.gallery-description h3 {
-  margin: 0 0 10px 0;
-  font-size: 1.2rem;
-  color: var(--heading-color, #e0e0e0);
-}
-
-.gallery-description p {
-  margin: 0;
-  font-size: 0.9rem;
-  color: var(--text-color, #a0a0a0);
-  line-height: 1.6;
-}
-`}
-</style>
+| Section | Description |
+|---------|-------------|
+| **Hero** | Introduction, name, and navigation |
+| **About Me** | Background, education, and professional summary |
+| **My DevSpace** | Interactive tech stack grid |
+| **Latest Projects** | Highlighted projects with images and links |
+| **InkSpace** | Blog articles published on Medium |
+| **Nuggets of Know-How** | Interactive accordion with dev tips |
+| **Footer** | Social links and contact info |
 
 ---
 
-## <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMiAxMHYtOGg4djgiLz48L3N2Zz4=" width="20" height="20" alt="Project Structure"/> Project Structure
+## 💼 Projects Showcased
+
+| Project | Description | Link |
+|---------|-------------|------|
+| **Restaurant** | Moroccan restaurant showcase with Vanilla JS & CSS | [GitHub](https://github.com/Ayoub-glitsh/Restaurant) |
+| **Morocco Weather Map** | Real-time weather map of Morocco with Next.js 14 | [GitHub](https://github.com/Ayoub-glitsh/morocco-weather-map) |
+| **DevOps CI/CD Automation** | GitHub & GitLab pipeline synchronization via YAML | [GitHub](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml) |
+| **Website Metadata API REST** | RESTful API to extract metadata from any public URL | [GitHub](https://github.com/Ayoub-glitsh/Website-Metadata-API-REST) |
+
+---
+
+## 📝 Blog Articles
+
+Published on [Medium](https://medium.com/me/stories?tab=posts-published):
+
+| Article | Link |
+|---------|------|
+| **Introducing Gemini CLI** | [Read on Medium](https://medium.com/@ayoub.aguezar.dev/introducing-gemini-cli-the-ai-powered-terminal-assistant-0e6656ace652) |
+| **MongoDB Administration** | [Read on Medium](https://medium.com/@ayoub.aguezar.dev/sauvegarde-et-restauration-dune-base-mongodb-guide-pratique-78ed01df6b7d) |
+| **Microsoft Office with PowerShell** | [Read on Medium](https://medium.com/@ayoub.aguezar.dev/installer-microsoft-office-facilement-avec-powershell-la-m%C3%A9thode-simple-et-efficace-3baa6af49c3c) |
+| **MongoDB Tips** | [Read on Medium](https://medium.com/@ayoub.aguezar.dev/comment-jautomatise-la-suppression-de-toutes-mes-bases-utilisateur-mongodb-en-toute-s%C3%A9curit%C3%A9-f1149ccd6676) |
+
+---
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel** using the Next.js framework preset.
 
 ```
-portfolio/
-├── public/
-│   └── projects/          # Project screenshots
-├── src/
-│   ├── app/
-│   │   ├── components/   # UI components
-│   │   │   ├── Items/    # Reusable components
-│   │   │   └── origin/   # Feature components
-│   │   ├── context/     # React context (Theme)
-│   │   ├── fonts/       # Custom fonts
-│   │   ├── info/        # Data (Tech, Projects, etc.)
-│   │   ├── globals.css  # Global styles
-│   │   ├── layout.tsx   # Root layout
-│   │   └── page.tsx     # Home page
-├── package.json
-├── tsconfig.json
-└── tailwind.config.ts
+Framework:        Next.js
+Build Command:    npm run build
+Output Directory: .next (auto-detected)
+Node.js Version:  18.x
 ```
 
----
+To deploy your own version:
 
-## <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI4IiAvPjwvc3ZnPg==" width="20" height="20" alt="Deploy"/> Deployment
-
-Deploy on [Vercel](https://vercel.com/) for the best experience:
-
-1. Push your code to GitHub
-2. Import the repository on Vercel
-3. Deploy with default settings
+1. Fork this repository
+2. Go to [vercel.com](https://vercel.com) and import the repo
+3. Select **Next.js** as the framework preset
+4. Click **Deploy** ✅
 
 ---
 
-## <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMiAxMHYtNmgyMHoiLz48L3N2Zz4=" width="20" height="20" alt="License"/> License
+## 👨‍💻 Author
 
-MIT License — See [LICENSE](LICENSE) for details.
+**Ayoub Aguezzar**
+Software Engineering & Data Engineering Student
 
----
-
-## <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNjY2IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMiAxMHYtOGg4djgiLz48L3N2Zz4=" width="20" height="20" alt="Author"/> Author
-
-Built with <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0icmVkIiBzdHJva2U9IiNjMzMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI4IiAvPjwvc3ZnPg==" width="16" height="16" alt="Heart"/> by **Ayoub GLITSH** — Full Stack Developer
+[![GitHub](https://img.shields.io/badge/GitHub-Ayoub--glitsh-black?logo=github)](https://github.com/Ayoub-glitsh)
+[![Medium](https://img.shields.io/badge/Medium-@ayoub.aguezar.dev-black?logo=medium)](https://medium.com/@ayoub.aguezar.dev)
 
 ---
 
-<!-- Typing Animation Styles -->
-<style>
-{`
-.typed-text {
-  border-right: 2px solid #666;
-  animation: blink 0.7s step-end infinite;
-}
-.cursor {
-  animation: blink 0.7s step-end infinite;
-}
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-`}
-</style>
+## 📄 License
 
-<!-- Typing Animation Script -->
-<script>
-{`
-const text = " — Full Stack Developer";
-const typedText = document.querySelector('.typed-text');
-let index = 0;
-function type() {
-  if (index < text.length) {
-    typedText.textContent += text.charAt(index);
-    index++;
-    setTimeout(type, 100);
-  }
-}
-document.addEventListener('DOMContentLoaded', type);
-`}
-</script>
+This project is licensed under the **MIT License** — feel free to use and adapt it for your own portfolio.
+
+---
+
+<p align="center">Built with ❤️ by <strong>Ayoub Aguezzar</strong></p>
