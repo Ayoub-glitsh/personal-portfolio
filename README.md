@@ -371,8 +371,3 @@ This project is licensed under the **MIT License** feel free to use and adapt it
 
 ---
 
-<<<<<<< HEAD
-<p align="center">Built with ❤️ by <strong>Ayoub Aguezar</strong></p>
-=======
-<p align="center">Built by <strong>Ayoub Aguezzar</strong></p>
->>>>>>> bb5cdd974eeb42165ef5d78adb2127e4ec79ba8a
