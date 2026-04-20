@@ -302,7 +302,7 @@ Software Engineering & Data Engineering Student
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — feel free to use and adapt it for your own portfolio.
+This project is licensed under the **MIT License** feel free to use and adapt it for your own portfolio.
 
 ---
 
