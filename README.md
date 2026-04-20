@@ -27,8 +27,7 @@
 
 ---
 
-<a id="overview"></a>
-## 🌟 Overview
+## <a id="overview"></a>🌟 Overview
 
 This is my personal developer portfolio — a clean, minimalist, and highly interactive website that presents my work, skills, and passions as a **Software Engineering & Data Engineering** student.
 
@@ -36,8 +35,7 @@ It features smooth scroll animations, light/dark mode support, interactive accor
 
 ---
 
-<a id="features"></a>
-## ✨ Features
+## <a id="features"></a>✨ Features
 
 | Feature | Details |
 |---------|---------|
@@ -52,8 +50,7 @@ It features smooth scroll animations, light/dark mode support, interactive accor
 
 ---
 
-<a id="tech-stack"></a>
-## 🛠️ Tech Stack
+## <a id="tech-stack"></a>🛠️ Tech Stack
 
 ### Frontend
 
@@ -79,8 +76,7 @@ It features smooth scroll animations, light/dark mode support, interactive accor
 
 ---
 
-<a id="project-structure"></a>
-## 📁 Project Structure
+## <a id="project-structure"></a>📁 Project Structure
 
 ```
 personal-portfolio/
@@ -138,8 +134,7 @@ personal-portfolio/
 
 ---
 
-<a id="getting-started"></a>
-## 🚀 Getting Started
+## <a id="getting-started"></a>🚀 Getting Started
 
 ### Prerequisites
 
@@ -166,8 +161,7 @@ Navigate to [http://localhost:3000](http://localhost:3000) 🎉
 
 ---
 
-<a id="available-scripts"></a>
-## 📜 Available Scripts
+## <a id="available-scripts"></a>📜 Available Scripts
 
 | Command | Description |
 |---------|-------------|
@@ -178,8 +172,7 @@ Navigate to [http://localhost:3000](http://localhost:3000) 🎉
 
 ---
 
-<a id="sections"></a>
-## 📄 Sections
+## <a id="sections"></a>📄 Sections
 
 The portfolio is organized into the following sections:
 
@@ -195,8 +188,7 @@ The portfolio is organized into the following sections:
 
 ---
 
-<a id="projects-showcased"></a>
-## 💼 Projects Showcased
+## <a id="projects-showcased"></a>💼 Projects Showcased
 
 | Project | Description | Link |
 |---------|-------------|------|
@@ -207,8 +199,7 @@ The portfolio is organized into the following sections:
 
 ---
 
-<a id="gallery"></a>
-## 🖼️ Gallery
+## <a id="gallery"></a>🖼️ Gallery
 
 <h2 align="center">📸 Galerie</h2>
 <p align="center">Captures d'écran de l'application</p>
@@ -266,8 +257,7 @@ The portfolio is organized into the following sections:
 
 ---
 
-<a id="blog-articles"></a>
-## 📝 Blog Articles
+## <a id="blog-articles"></a>📝 Blog Articles
 
 Published on [Medium](https://medium.com/me/stories?tab=posts-published):
 
@@ -280,8 +270,7 @@ Published on [Medium](https://medium.com/me/stories?tab=posts-published):
 
 ---
 
-<a id="deployment"></a>
-## 🌐 Deployment
+## <a id="deployment"></a>🌐 Deployment
 
 This project is deployed on **Vercel** using the Next.js framework preset.
 
@@ -301,8 +290,7 @@ To deploy your own version:
 
 ---
 
-<a id="author"></a>
-## 👨‍💻 Author
+## <a id="author"></a>👨‍💻 Author
 
 **Ayoub Aguezzar**
 Software Engineering & Data Engineering Student
