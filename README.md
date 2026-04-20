@@ -21,6 +21,7 @@
 - [Sections](#sections)
 - [Projects Showcased](#projects-showcased)
 - [Blog Articles](#blog-articles)
+- [Gallery](#gallery)
 - [Deployment](#deployment)
 - [Author](#author)
 
@@ -195,6 +196,63 @@ The portfolio is organized into the following sections:
 | **Morocco Weather Map** | Real-time weather map of Morocco with Next.js 14 | [GitHub](https://github.com/Ayoub-glitsh/morocco-weather-map) |
 | **DevOps CI/CD Automation** | GitHub & GitLab pipeline synchronization via YAML | [GitHub](https://github.com/Ayoub-glitsh/DevOps-Github-Gitlab-CI-CD-Automation-Yml) |
 | **Website Metadata API REST** | RESTful API to extract metadata from any public URL | [GitHub](https://github.com/Ayoub-glitsh/Website-Metadata-API-REST) |
+
+---
+
+## 🖼️ Gallery
+
+A visual tour of the different sections of the portfolio:
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="" alt="Hero Section" width="100%" />
+      <br />
+      <strong>🏠 Hero Section</strong>
+      <br />
+      <sub>The landing area featuring a personal introduction, name display, and a floating navigation sidebar with smooth scroll links to each section.</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="" alt="About Me Section" width="100%" />
+      <br />
+      <strong>👤 About Me</strong>
+      <br />
+      <sub>A personal section presenting my background, education journey (Software Engineering & Data Engineering), and professional story.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="" alt="Tech Stack Section" width="100%" />
+      <br />
+      <strong>🛠️ My DevSpace — Tech Stack</strong>
+      <br />
+      <sub>An interactive grid of technologies I work with, including frontend, backend, databases, and DevOps tools — each displayed as a hoverable tech card.</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="" alt="Projects Section" width="100%" />
+      <br />
+      <strong>💼 Latest Projects</strong>
+      <br />
+      <sub>A curated showcase of my top projects displayed as animated cards with preview images, descriptions, and direct links to GitHub repositories.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="" alt="Blog Section" width="100%" />
+      <br />
+      <strong>✍️ InkSpace — Blog Articles</strong>
+      <br />
+      <sub>A blog section featuring my latest technical articles published on Medium, displayed as preview cards with titles and cover images.</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="" alt="Nuggets of Know-How" width="100%" />
+      <br />
+      <strong>💡 Nuggets of Know-How</strong>
+      <br />
+      <sub>An interactive accordion section sharing quick developer tips, best practices, and technical knowledge snippets — expands on click.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
