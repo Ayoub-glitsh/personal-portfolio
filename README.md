@@ -52,7 +52,7 @@ It features smooth scroll animations, light/dark mode support, interactive accor
 
 ## <a id="tech-stack"></a>🛠️ Tech Stack
 
-### Frontend 
+<h3 align="center">Frontend</h3>
 
 
 
