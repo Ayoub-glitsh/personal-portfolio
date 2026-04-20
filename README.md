@@ -24,6 +24,7 @@
 - [Gallery](#gallery)
 - [Deployment](#deployment)
 - [Author](#author)
+- [Acknowledgement](#acknowledgement)
 
 ---
 
@@ -362,6 +363,16 @@ Software Engineering & Data Engineering Student
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ayoub--glitsh-black?logo=github)](https://github.com/Ayoub-glitsh)
 [![Medium](https://img.shields.io/badge/Medium-@ayoub.aguezar.dev-black?logo=medium)](https://medium.com/@ayoub.aguezar.dev)
+
+---
+
+
+## <a id="acknowledgement"></a>🙏 Acknowledgement
+
+This project is inspired by **[Ismail](https://github.com/ismail)**.  
+I would like to sincerely thank him for the project he built and shared for free as open source.
+
+Huge shoutout to him — don't forget to check out his GitHub and support his work 🚀
 
 ---
 
