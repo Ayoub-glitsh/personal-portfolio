@@ -201,55 +201,56 @@ The portfolio is organized into the following sections:
 
 ## 🖼️ Gallery
 
-A visual tour of the different sections of the portfolio:
+<h2 align="center">📸 Galerie</h2>
+<p align="center">Captures d'écran de l'application</p>
 
 <table>
   <tr>
     <td align="center" width="50%">
       <img src="" alt="Hero Section" width="100%" />
       <br />
-      <strong>🏠 Hero Section</strong>
+      <strong>Page d'accueil</strong>
       <br />
-      <sub>The landing area featuring a personal introduction, name display, and a floating navigation sidebar with smooth scroll links to each section.</sub>
+      <em>Interface de bienvenue avec navigation principale</em>
     </td>
     <td align="center" width="50%">
       <img src="" alt="About Me Section" width="100%" />
       <br />
-      <strong>👤 About Me</strong>
+      <strong>À propos de moi</strong>
       <br />
-      <sub>A personal section presenting my background, education journey (Software Engineering & Data Engineering), and professional story.</sub>
+      <em>Parcours académique et résumé professionnel détaillé</em>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="" alt="Tech Stack Section" width="100%" />
       <br />
-      <strong>🛠️ My DevSpace — Tech Stack</strong>
+      <strong>Stack Technique</strong>
       <br />
-      <sub>An interactive grid of technologies I work with, including frontend, backend, databases, and DevOps tools — each displayed as a hoverable tech card.</sub>
+      <em>Grille interactive des technologies et outils maîtrisés</em>
     </td>
     <td align="center" width="50%">
       <img src="" alt="Projects Section" width="100%" />
       <br />
-      <strong>💼 Latest Projects</strong>
+      <strong>Derniers Projets</strong>
       <br />
-      <sub>A curated showcase of my top projects displayed as animated cards with preview images, descriptions, and direct links to GitHub repositories.</sub>
+      <em>Galerie de projets avec liens directs vers GitHub</em>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
       <img src="" alt="Blog Section" width="100%" />
       <br />
-      <strong>✍️ InkSpace — Blog Articles</strong>
+      <strong>Espace InkSpace</strong>
       <br />
-      <sub>A blog section featuring my latest technical articles published on Medium, displayed as preview cards with titles and cover images.</sub>
+      <em>Articles techniques publiés sur ma plateforme Medium</em>
     </td>
     <td align="center" width="50%">
       <img src="" alt="Nuggets of Know-How" width="100%" />
       <br />
-      <strong>💡 Nuggets of Know-How</strong>
+      <strong>Pépites de Savoir</strong>
       <br />
-      <sub>An interactive accordion section sharing quick developer tips, best practices, and technical knowledge snippets — expands on click.</sub>
+      <em>Accordéon interactif partageant des astuces de développement</em>
     </td>
   </tr>
 </table>
