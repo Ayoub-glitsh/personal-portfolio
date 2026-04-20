@@ -214,7 +214,7 @@ The portfolio is organized into the following sections:
       <em>Interface de bienvenue avec navigation principale</em>
     </td>
     <td align="center" width="50%">
-      <img src="" alt="About Me Section" width="100%" />
+      <img src="https://res.cloudinary.com/dqgsl5uu4/image/upload/q_auto/f_auto/v1776710667/im_02_jkc425.png" alt="About Me Section" width="100%" />
       <br />
       <strong>À propos de moi</strong>
       <br />
