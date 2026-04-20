@@ -120,7 +120,7 @@ It features smooth scroll animations, light/dark mode support, interactive accor
 
   <tr>
     <td>
-      <img src="https://unpkg.com/@phosphor-icons/core/assets/phosphor-logo.svg" width="20"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg" width="20"/>
       <a href="https://phosphoricons.com/">Phosphor Icons</a>
     </td>
     <td>2</td>
