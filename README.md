@@ -357,7 +357,7 @@ To deploy your own version:
 
 ## <a id="author"></a>👨‍💻 Author
 
-**Ayoub Aguezzar**
+**Ayoub Aguezar**
 Software Engineering & Data Engineering Student
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ayoub--glitsh-black?logo=github)](https://github.com/Ayoub-glitsh)
@@ -371,4 +371,4 @@ This project is licensed under the **MIT License** feel free to use and adapt it
 
 ---
 
-<p align="center">Built with ❤️ by <strong>Ayoub Aguezzar</strong></p>
+<p align="center">Built with ❤️ by <strong>Ayoub Aguezar</strong></p>
