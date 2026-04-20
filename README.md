@@ -207,7 +207,7 @@ The portfolio is organized into the following sections:
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="" alt="Hero Section" width="100%" />
+      <img src="https://res.cloudinary.com/dqgsl5uu4/image/upload/f_auto,q_auto/im_01_kui8zv" alt="Hero Section" width="100%" />
       <br />
       <strong>Page d'accueil</strong>
       <br />
