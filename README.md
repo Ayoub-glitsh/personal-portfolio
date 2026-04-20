@@ -92,7 +92,7 @@ It features smooth scroll animations, light/dark mode support, interactive accor
 
   <tr>
     <td>
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="20"/>
+      <img src="https://www.svgrepo.com/show/374118/tailwind.svg" width="20"/>
       <a href="https://tailwindcss.com/">Tailwind CSS</a>
     </td>
     <td>4</td>
