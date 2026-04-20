@@ -111,7 +111,7 @@ It features smooth scroll animations, light/dark mode support, interactive accor
   <tr>
     <td>
       <!-- Pas d’icône Devicon officielle -->
-      <img src="https://raw.githubusercontent.com/darkroomengineering/lenis/main/.github/assets/logo.svg" width="20"/>
+      <img src="https://lenis.darkroom.engineering/favicon.ico" width="20"/>
       <a href="https://lenis.darkroom.engineering/">Lenis</a>
     </td>
     <td>1.3</td>
