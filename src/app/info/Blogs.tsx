@@ -5,9 +5,9 @@ export const blogPosts = [
 		link: 'https://medium.com/@ayoub.aguezar.dev/introducing-gemini-cli-the-ai-powered-terminal-assistant-0e6656ace652',
 	},
 	{
-		title: 'Spring Boot for Beginners',
-		img: '/projects/spring-boot.jpg',
-		link: 'https://iassil.notion.site/spring-boot',
+		title: 'MongoDB Backup and Recovery',
+		img: '/projects/mongodb-backup.png',
+		link: 'https://medium.com/@ayoub.aguezar.dev/sauvegarde-et-restauration-dune-base-mongodb-guide-pratique-78ed01df6b7d',
 	},
 	{
 		title: 'RayCasting in C',
