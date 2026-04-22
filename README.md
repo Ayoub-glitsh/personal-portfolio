@@ -130,15 +130,19 @@ It features smooth scroll animations, light/dark mode support, interactive accor
 
 </table>
 
+<div align="center">
+
 ### Tooling & Deployment
 
 | Tool | Purpose |
 |------|---------|
-| [Vercel](https://vercel.com/) | Hosting & CI/CD |
-| [Vercel Analytics](https://vercel.com/analytics) | Traffic insights |
-| [ESLint](https://eslint.org/) | Code linting |
-| [Prettier](https://prettier.io/) | Code formatting |
-| [Turbopack](https://turbo.build/pack) | Fast bundler for development |
+| <img src="https://cdn.simpleicons.org/vercel/white" width="20"/> <a href="https://vercel.com/">Vercel</a> | Hosting & CI/CD |
+| <img src="https://cdn.simpleicons.org/vercel/white" width="20"/> <a href="https://vercel.com/analytics">Vercel Analytics</a> | Traffic insights |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" width="20"/> <a href="https://eslint.org/">ESLint</a> | Code linting |
+| <img src="https://cdn.simpleicons.org/prettier" width="20"/> <a href="https://prettier.io/">Prettier</a> | Code formatting |
+| <img src="https://cdn.simpleicons.org/turborepo" width="20"/> <a href="https://turbo.build/pack">Turbopack</a> | Fast bundler for development |
+
+</div>
 
 ---
 
